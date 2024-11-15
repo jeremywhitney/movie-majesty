@@ -1,4 +1,6 @@
-export const movies = [
+import { Movie } from "../types";
+
+export const movies: Movie[] = [
   {
     title: "Inception",
     poster:
