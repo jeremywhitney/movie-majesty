@@ -1,7 +1,7 @@
 import { movies } from "./movies-data.js";
 
 // We define a function called generateMoviesHTML using an arrow function syntax.
-export const generateMoviesHTML = () => {
+export const generateMoviesHTML = (): string => {
   let movieHTML = ""; // Inside the function, we initialize an empty string variable called movieHTML to store the generated HTML markup.
 
   for (const movie of movies) {

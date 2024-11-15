@@ -1,4 +1,6 @@
-export const renderMoviesToDOM = (movieHTML) => {
+import { Movie } from "../types";
+
+export const renderMoviesToDOM = (movieHTML: string): void => {
   // We define a function called renderMoviesToDOM that accepts a parameter movieHTML, which represents the HTML markup of the movie cards
   const movieList = document.getElementById("movie-list"); // We use document.getElementById('movie-list') to select the DOM element with the ID "movie-list". This is the element where we want to insert the movie cards
   // We store the selected element in the movieList variable
