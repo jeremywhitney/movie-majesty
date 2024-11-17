@@ -25,4 +25,4 @@ export const generateMoviesHTML = (): string => {
         We concatenate each generated movie HTML to the movieHTML string. */
 
   return movieHTML; // We return the movieHTML string containing the generated HTML markup for all the movies.
-};
+}
